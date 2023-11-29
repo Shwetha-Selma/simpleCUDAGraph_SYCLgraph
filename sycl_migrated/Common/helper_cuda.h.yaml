@@ -1,0 +1,1222 @@
+---
+MainSourceFile:  '/nfs/site/home/yantaoz1/cuda-samples/Samples/3_CUDA_Features/simpleCudaGraphs/dpct_output/Common/helper_cuda.h'
+Replacements:
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          1793
+    Length:          0
+    ReplacementText: "#include <sycl/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          2203
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG #ifdef __DRIVER_TYPES_H__*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          2210
+    Length:          18
+    ReplacementText: __DPCT_HPP__
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          2229
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG static const char *_cudaGetErrorEnum(cudaError_t error) {*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          2266
+    Length:          11
+    ReplacementText: 'dpct::err0'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          2287
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG   return cudaGetErrorName(error);*/\n  /*\n  DPCT1009:9: SYCL uses exceptions to report errors and does not use the error codes. The original code was commented out and a warning string was inserted. You need to rewrite this code.\n  */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          2296
+    Length:          23
+    ReplacementText: '"cudaGetErrorName is not supported"/*cudaGetErrorName(error)*/'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          7072
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG static const char *_cudaGetErrorEnum(curandStatus_t error) {*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          7109
+    Length:          14
+    ReplacementText: int
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          7152
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG     case CURAND_STATUS_SUCCESS:*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          7161
+    Length:          21
+    ReplacementText: '0'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          7223
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG     case CURAND_STATUS_VERSION_MISMATCH:*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          7232
+    Length:          30
+    ReplacementText: '100'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          7312
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG     case CURAND_STATUS_NOT_INITIALIZED:*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          7321
+    Length:          29
+    ReplacementText: '101'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          7399
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG     case CURAND_STATUS_ALLOCATION_FAILED:*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          7408
+    Length:          31
+    ReplacementText: '102'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          7490
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG     case CURAND_STATUS_TYPE_ERROR:*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          7499
+    Length:          24
+    ReplacementText: '103'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          7567
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG     case CURAND_STATUS_OUT_OF_RANGE:*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          7576
+    Length:          26
+    ReplacementText: '104'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          7648
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG     case CURAND_STATUS_LENGTH_NOT_MULTIPLE:*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          7657
+    Length:          33
+    ReplacementText: '105'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          7743
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG     case CURAND_STATUS_DOUBLE_PRECISION_REQUIRED:*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          7752
+    Length:          39
+    ReplacementText: '106'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          7850
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG     case CURAND_STATUS_LAUNCH_FAILURE:*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          7859
+    Length:          28
+    ReplacementText: '201'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          7935
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG     case CURAND_STATUS_PREEXISTING_FAILURE:*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          7944
+    Length:          33
+    ReplacementText: '202'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          8030
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG     case CURAND_STATUS_INITIALIZATION_FAILED:*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          8039
+    Length:          35
+    ReplacementText: '203'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          8129
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG     case CURAND_STATUS_ARCH_MISMATCH:*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          8138
+    Length:          27
+    ReplacementText: '204'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          8212
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG     case CURAND_STATUS_INTERNAL_ERROR:*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          8221
+    Length:          28
+    ReplacementText: '999'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          15783
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG   if (result) {\n    fprintf(stderr, \"CUDA error at %s:%d code=%d(%s) \\\"%s\\\" \\n\", file, line,\n            static_cast<unsigned int>(result), _cudaGetErrorEnum(result), func);\n    exit(EXIT_FAILURE);\n  }*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          15785
+    Length:          199
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          15988
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG #ifdef __DRIVER_TYPES_H__*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          15995
+    Length:          18
+    ReplacementText: __DPCT_HPP__
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          16461
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG   cudaError_t err = cudaGetLastError();*/\n  /*\n  DPCT1010:10: SYCL uses exceptions to report errors and does not use the error codes. The call was replaced with 0. You need to rewrite this code.\n  */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          16463
+    Length:          11
+    ReplacementText: 'dpct::err0'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          16481
+    Length:          18
+    ReplacementText: '0'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          16502
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG   if (cudaSuccess != err) {\n    fprintf(stderr,\n            \"%s(%i) : getLastCudaError() CUDA error :\"\n            \" %s : (%d) %s.\\n\",\n            file, line, errorMessage, static_cast<int>(err),\n            cudaGetErrorString(err));\n    exit(EXIT_FAILURE);\n  }*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          16504
+    Length:          259
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          17099
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG   cudaError_t err = cudaGetLastError();*/\n  /*\n  DPCT1010:12: SYCL uses exceptions to report errors and does not use the error codes. The call was replaced with 0. You need to rewrite this code.\n  */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          17101
+    Length:          11
+    ReplacementText: 'dpct::err0'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          17119
+    Length:          18
+    ReplacementText: '0'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          17140
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG   if (cudaSuccess != err) {\n    fprintf(stderr,\n            \"%s(%i) : getLastCudaError() CUDA error :\"\n            \" %s : (%d) %s.\\n\",\n            file, line, errorMessage, static_cast<int>(err),\n            cudaGetErrorString(err));\n  }*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          17142
+    Length:          235
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          17829
+    Length:          0
+    ReplacementText: ' dpct_type_232917'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          19036
+    Length:          0
+    ReplacementText: ' dpct_type_148938'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          20187
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG #ifdef __CUDA_RUNTIME_H__*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          20194
+    Length:          18
+    ReplacementText: __DPCT_HPP__
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          20313
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG   checkCudaErrors(cudaGetDeviceCount(&device_count));*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          20331
+    Length:          33
+    ReplacementText: 'DPCT_CHECK_ERROR(device_count = dpct::dev_mgr::instance().device_count())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          20960
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG   checkCudaErrors(cudaDeviceGetAttribute(&computeMode, cudaDevAttrComputeMode, devID));*/\n  /*\n  DPCT1035:14: All SYCL devices can be used by the host to submit tasks. You may need to adjust this code.\n  */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          20978
+    Length:          67
+    ReplacementText: 'DPCT_CHECK_ERROR(computeMode = 1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          21048
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG   checkCudaErrors(cudaDeviceGetAttribute(&major, cudaDevAttrComputeCapabilityMajor, devID));*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          21066
+    Length:          72
+    ReplacementText: 'DPCT_CHECK_ERROR(major = dpct::dev_mgr::instance().get_device(devID).get_major_version())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          21141
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG   checkCudaErrors(cudaDeviceGetAttribute(&minor, cudaDevAttrComputeCapabilityMinor, devID));*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          21159
+    Length:          72
+    ReplacementText: 'DPCT_CHECK_ERROR(minor = dpct::dev_mgr::instance().get_device(devID).get_minor_version())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          21234
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG   if (computeMode == cudaComputeModeProhibited) {*/\n  /*\n  DPCT1035:15: All SYCL devices can be used by the host to submit tasks. You may need to adjust this code.\n  */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          21255
+    Length:          25
+    ReplacementText: '0'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          21573
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG   checkCudaErrors(cudaSetDevice(devID));*/\n  /*\n  DPCT1093:16: The \"devID\" device may be not the one intended for use. Adjust the selected device if needed.\n  */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          21591
+    Length:          13
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::select_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          21611
+    Length:          0
+    ReplacementText: ')'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          21830
+    Length:          0
+    ReplacementText: ' try '
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          21995
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG   checkCudaErrors(cudaGetDeviceCount(&device_count));*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          22013
+    Length:          33
+    ReplacementText: 'DPCT_CHECK_ERROR(device_count = dpct::dev_mgr::instance().device_count())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          22381
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG     checkCudaErrors(cudaDeviceGetAttribute(&computeMode, cudaDevAttrComputeMode, current_device));*/\n    /*\n    DPCT1035:17: All SYCL devices can be used by the host to submit tasks. You may need to adjust this code.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          22401
+    Length:          76
+    ReplacementText: 'DPCT_CHECK_ERROR(computeMode = 1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          22480
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG     checkCudaErrors(cudaDeviceGetAttribute(&major, cudaDevAttrComputeCapabilityMajor, current_device));*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          22500
+    Length:          81
+    ReplacementText: 'DPCT_CHECK_ERROR(major = dpct::dev_mgr::instance().get_device(current_device).get_major_version())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          22584
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG     checkCudaErrors(cudaDeviceGetAttribute(&minor, cudaDevAttrComputeCapabilityMinor, current_device));*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          22604
+    Length:          81
+    ReplacementText: 'DPCT_CHECK_ERROR(minor = dpct::dev_mgr::instance().get_device(current_device).get_minor_version())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          22789
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG     if (computeMode != cudaComputeModeProhibited) {*/\n    /*\n    DPCT1035:18: All SYCL devices can be used by the host to submit tasks. You may need to adjust this code.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          22812
+    Length:          25
+    ReplacementText: '0'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          23063
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG       checkCudaErrors(cudaDeviceGetAttribute(&multiProcessorCount, cudaDevAttrMultiProcessorCount, current_device));*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          23085
+    Length:          92
+    ReplacementText: 'DPCT_CHECK_ERROR(multiProcessorCount = dpct::dev_mgr::instance().get_device(current_device).get_max_compute_units())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          23180
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG       cudaError_t result = cudaDeviceGetAttribute(&clockRate, cudaDevAttrClockRate, current_device);*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          23186
+    Length:          11
+    ReplacementText: 'dpct::err0'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          23207
+    Length:          72
+    ReplacementText: 'DPCT_CHECK_ERROR(clockRate = dpct::dev_mgr::instance().get_device(current_device).get_max_clock_frequency())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          23281
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG       if (result != cudaSuccess) {\n        \n        \n        if(result == cudaErrorInvalidValue) {\n          clockRate = 1;\n        }\n        else {\n          fprintf(stderr, \"CUDA error at %s:%d code=%d(%s) \\n\", __FILE__, __LINE__,\n            static_cast<unsigned int>(result), _cudaGetErrorEnum(result));\n          exit(EXIT_FAILURE);\n        }\n      }*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          23287
+    Length:          473
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          24298
+    Length:          0
+    ReplacementText: "\ncatch (sycl::exception const &exc) {\n  std::cerr << exc.what() << \"Exception caught at file:\" << __FILE__ << \", line:\" << __LINE__ << std::endl;\n  std::exit(1);\n}"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          24947
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG     checkCudaErrors(cudaSetDevice(devID));*/\n    /*\n    DPCT1093:19: The \"devID\" device may be not the one intended for use. Adjust the selected device if needed.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          24967
+    Length:          13
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::select_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          24987
+    Length:          0
+    ReplacementText: ')'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          25020
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG     checkCudaErrors(cudaDeviceGetAttribute(&major, cudaDevAttrComputeCapabilityMajor, devID));*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          25040
+    Length:          72
+    ReplacementText: 'DPCT_CHECK_ERROR(major = dpct::dev_mgr::instance().get_device(devID).get_major_version())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          25115
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG     checkCudaErrors(cudaDeviceGetAttribute(&minor, cudaDevAttrComputeCapabilityMinor, devID));*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          25135
+    Length:          72
+    ReplacementText: 'DPCT_CHECK_ERROR(minor = dpct::dev_mgr::instance().get_device(devID).get_minor_version())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          25490
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG   checkCudaErrors(cudaGetDeviceCount(&device_count));*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          25508
+    Length:          33
+    ReplacementText: 'DPCT_CHECK_ERROR(device_count = dpct::dev_mgr::instance().device_count())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          25806
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG     checkCudaErrors(cudaDeviceGetAttribute(&computeMode, cudaDevAttrComputeMode, current_device));*/\n    /*\n    DPCT1035:20: All SYCL devices can be used by the host to submit tasks. You may need to adjust this code.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          25826
+    Length:          76
+    ReplacementText: 'DPCT_CHECK_ERROR(computeMode = 1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          25905
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG     checkCudaErrors(cudaDeviceGetAttribute(&integrated, cudaDevAttrIntegrated, current_device));*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          25925
+    Length:          74
+    ReplacementText: 'DPCT_CHECK_ERROR(integrated = dpct::dev_mgr::instance().get_device(current_device).get_integrated())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          26119
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG     if (integrated && (computeMode != cudaComputeModeProhibited)) {*/\n    /*\n    DPCT1035:21: All SYCL devices can be used by the host to submit tasks. You may need to adjust this code.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          26157
+    Length:          25
+    ReplacementText: '0'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          26187
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG       checkCudaErrors(cudaSetDevice(current_device));*/\n      /*\n      DPCT1093:22: The \"current_device\" device may be not the one intended for use. Adjust the selected device if needed.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          26209
+    Length:          13
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::select_device'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          26238
+    Length:          0
+    ReplacementText: ')'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          26274
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG       checkCudaErrors(cudaDeviceGetAttribute(&major, cudaDevAttrComputeCapabilityMajor, current_device));*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          26296
+    Length:          81
+    ReplacementText: 'DPCT_CHECK_ERROR(major = dpct::dev_mgr::instance().get_device(current_device).get_major_version())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          26380
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG       checkCudaErrors(cudaDeviceGetAttribute(&minor, cudaDevAttrComputeCapabilityMinor, current_device));*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          26402
+    Length:          81
+    ReplacementText: 'DPCT_CHECK_ERROR(minor = dpct::dev_mgr::instance().get_device(current_device).get_minor_version())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          27099
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG   checkCudaErrors(cudaGetDevice(&dev));*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          27117
+    Length:          19
+    ReplacementText: 'dev = dpct::dev_mgr::instance().current_device_id()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          27139
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG   checkCudaErrors(cudaDeviceGetAttribute(&major, cudaDevAttrComputeCapabilityMajor, dev));*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          27157
+    Length:          70
+    ReplacementText: 'DPCT_CHECK_ERROR(major = dpct::dev_mgr::instance().get_device(dev).get_major_version())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          27230
+    Length:          0
+    ReplacementText: "/* DPCT_ORIG   checkCudaErrors(cudaDeviceGetAttribute(&minor, cudaDevAttrComputeCapabilityMinor, dev));*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Offset:          27248
+    Length:          70
+    ReplacementText: 'DPCT_CHECK_ERROR(minor = dpct::dev_mgr::instance().get_device(dev).get_minor_version())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+MainSourceFilesDigest:
+  - MainSourceFile:  '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+    Digest:          b335aa967b6d80921de9d6528e1564a5
+DpctVersion:     2023.2.0
+MainHelperFileName: dpct
+USMLevel:        ''
+FeatureMap:
+  device.hpp:
+    dev_mgr:
+      IsCalled:        false
+      SubFeatureMap:
+        dev_mgr_current_device_id:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+          SubFeatureMap:   {}
+        dev_mgr_device_count:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+          SubFeatureMap:   {}
+        dev_mgr_get_device:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+          SubFeatureMap:   {}
+    device_ext:
+      IsCalled:        false
+      SubFeatureMap:
+        device_ext_create_queue:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/nfs/site/home/yantaoz1/cuda-samples/Samples/3_CUDA_Features/simpleCudaGraphs/simpleCudaGraphs.cu'
+          SubFeatureMap:   {}
+        device_ext_destroy_queue:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/nfs/site/home/yantaoz1/cuda-samples/Samples/3_CUDA_Features/simpleCudaGraphs/simpleCudaGraphs.cu'
+          SubFeatureMap:   {}
+        device_ext_get_integrated:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+          SubFeatureMap:   {}
+        device_ext_get_major_version:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+          SubFeatureMap:   {}
+        device_ext_get_max_clock_frequency:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+          SubFeatureMap:   {}
+        device_ext_get_max_compute_units:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+          SubFeatureMap:   {}
+        device_ext_get_minor_version:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+          SubFeatureMap:   {}
+    get_current_device:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/nfs/site/home/yantaoz1/cuda-samples/Samples/3_CUDA_Features/simpleCudaGraphs/simpleCudaGraphs.cu'
+      SubFeatureMap:   {}
+    get_default_queue:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/nfs/site/home/yantaoz1/cuda-samples/Samples/3_CUDA_Features/simpleCudaGraphs/simpleCudaGraphs.cu'
+      SubFeatureMap:   {}
+    has_capability_or_fail:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/nfs/site/home/yantaoz1/cuda-samples/Samples/3_CUDA_Features/simpleCudaGraphs/simpleCudaGraphs.cu'
+      SubFeatureMap:   {}
+    select_device:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+      SubFeatureMap:   {}
+    typedef_event_ptr:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/nfs/site/home/yantaoz1/cuda-samples/Samples/3_CUDA_Features/simpleCudaGraphs/simpleCudaGraphs.cu'
+      SubFeatureMap:   {}
+    typedef_queue_ptr:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/nfs/site/home/yantaoz1/cuda-samples/Samples/3_CUDA_Features/simpleCudaGraphs/simpleCudaGraphs.cu'
+      SubFeatureMap:   {}
+  dpct.hpp:
+    check_error_code:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+        - '/nfs/site/home/yantaoz1/cuda-samples/Samples/3_CUDA_Features/simpleCudaGraphs/simpleCudaGraphs.cu'
+      SubFeatureMap:   {}
+  image.hpp:
+    image_matrix:
+      IsCalled:        false
+      SubFeatureMap:
+        image_matrix_to_pitched_data:
+          IsCalled:        true
+          CallerSrcFiles:
+            - '/nfs/site/home/yantaoz1/cuda-samples/Samples/3_CUDA_Features/simpleCudaGraphs/simpleCudaGraphs.cu'
+          SubFeatureMap:   {}
+  memory.hpp:
+    async_dpct_memset:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/nfs/site/home/yantaoz1/cuda-samples/Samples/3_CUDA_Features/simpleCudaGraphs/simpleCudaGraphs.cu'
+      SubFeatureMap:   {}
+    async_dpct_memset_2d:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/nfs/site/home/yantaoz1/cuda-samples/Samples/3_CUDA_Features/simpleCudaGraphs/simpleCudaGraphs.cu'
+      SubFeatureMap:   {}
+    async_dpct_memset_3d:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/nfs/site/home/yantaoz1/cuda-samples/Samples/3_CUDA_Features/simpleCudaGraphs/simpleCudaGraphs.cu'
+      SubFeatureMap:   {}
+    memcpy_direction:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/nfs/site/home/yantaoz1/cuda-samples/Samples/3_CUDA_Features/simpleCudaGraphs/simpleCudaGraphs.cu'
+      SubFeatureMap:   {}
+    pitched_data:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/nfs/site/home/yantaoz1/cuda-samples/Samples/3_CUDA_Features/simpleCudaGraphs/simpleCudaGraphs.cu'
+      SubFeatureMap:   {}
+  util.hpp:
+    err_types:
+      IsCalled:        true
+      CallerSrcFiles:
+        - '/nfs/site/home/yantaoz1/cuda-samples/Common/helper_cuda.h'
+      SubFeatureMap:   {}
+CompileTargets:  {}
+OptionMap:
+  AnalysisScopePath:
+    Value:           '/nfs/site/home/yantaoz1/cuda-samples'
+    Specified:       false
+  AsyncHandler:
+    Value:           'false'
+    Specified:       false
+  CommentsEnabled:
+    Value:           'false'
+    Specified:       false
+  CompilationsDir:
+    Value:           '/nfs/site/home/yantaoz1/cuda-samples/Samples/3_CUDA_Features/simpleCudaGraphs'
+    Specified:       true
+  CtadEnabled:
+    Value:           'false'
+    Specified:       false
+  CustomHelperFileName:
+    Value:           dpct
+    Specified:       false
+  EnablepProfiling:
+    Value:           'false'
+    Specified:       false
+  ExperimentalFlag:
+    Value:           '0'
+    Specified:       false
+  ExplicitClNamespace:
+    Value:           'false'
+    Specified:       false
+  ExplicitNamespace:
+    Value:           '20'
+    Specified:       false
+  ExtensionDDFlag:
+    Value:           '0'
+    Specified:       false
+  ExtensionDEFlag:
+    Value:           '4294967295'
+    Specified:       false
+  NDRangeDim:
+    Value:           '3'
+    Specified:       false
+  NoDRYPattern:
+    Value:           'false'
+    Specified:       false
+  OptimizeMigration:
+    Value:           'false'
+    Specified:       false
+  ProcessAll:
+    Value:           'false'
+    Specified:       false
+  RuleFile:
+    Value:           ''
+    Specified:       false
+  SyclNamedLambda:
+    Value:           'false'
+    Specified:       false
+  UsmLevel:
+    Value:           '1'
+    Specified:       false
+...
